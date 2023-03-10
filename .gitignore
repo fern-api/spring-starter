@@ -4,5 +4,7 @@ build
 *.iws
 *.iml
 
+.DS_Store
+
 # generated code
 src/main/java/com/example/generated
