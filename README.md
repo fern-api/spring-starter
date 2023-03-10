@@ -1,6 +1,6 @@
-# Express + Fern starter repo
+# Spring + Fern starter repo
 
-This repo is a starter repo for building an Express server using [Fern](https://github.com/fern-api/fern).
+This repo is a starter repo for building a Spring server using [Fern](https://github.com/fern-api/fern).
 
 **Fern is an open source format for defining REST APIs.** Fern makes it easy to:
 
@@ -68,7 +68,7 @@ npm install -g fern
 fern generate
 ```
 
-This will output newly generated code to [src/api/generated](src/api/generated).
+This will output newly generated code to [src/main/java/com/example/generated](src/main/java/com/example/generated).
 
 When you change your API, you'll get compile errors if you're not implementing
 the API correctly.
@@ -76,5 +76,5 @@ the API correctly.
 ## Issues & contributing
 
 If you run into any problems while using this ticket, plesae [file an
-issue](https://github.com/fern-api/express-starter/issues). Of course, PRs are
+issue](https://github.com/fern-api/spring-starter/issues). Of course, PRs are
 welcome and encouraged!

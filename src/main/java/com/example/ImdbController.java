@@ -1,4 +1,4 @@
-package com.example.controllers;
+package com.example;
 
 import com.example.generated.resources.imdb.ImdbService;
 import com.example.generated.resources.imdb.types.CreateMovieRequest;

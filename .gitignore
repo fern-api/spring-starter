@@ -1,0 +1,8 @@
+build
+.gradle
+*.ipr
+*.iws
+*.iml
+
+# generated code
+src/main/java/com/example/generated
