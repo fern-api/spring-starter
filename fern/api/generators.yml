@@ -1,0 +1,11 @@
+default-group: local
+groups:
+  local:
+    generators:
+      - name: fernapi/fern-java-spring
+        version: 0.0.134
+        output:
+          location: local-file-system
+          path: ../../src/main/java/com/example/generated
+        config:
+          package-prefix: com.example.generated
