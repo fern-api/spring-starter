@@ -1,4 +1,5 @@
 build/
+out/
 .gradle
 *.ipr
 *.iws
@@ -7,4 +8,5 @@ build/
 .DS_Store
 
 # generated code
-src/main/java/com/example/generated/
+src/main/java/com/example/server/generated
+src/test/java/com/example/client/generated

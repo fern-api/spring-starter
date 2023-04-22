@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 jobs:
-  compile:
+  check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,3 +24,5 @@ jobs:
           FERN_TOKEN: dummy
       - name: Compile
         run: ./gradlew compileJava
+      - name: Unit Test
+        run: ./gradlew test

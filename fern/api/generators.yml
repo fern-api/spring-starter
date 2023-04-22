@@ -3,9 +3,16 @@ groups:
   local:
     generators:
       - name: fernapi/fern-java-spring
-        version: 0.0.134
+        version: 0.2.1
         output:
           location: local-file-system
-          path: ../../src/main/java/com/example/generated
+          path: ../../src/main/java/com/example/server/generated
         config:
-          package-prefix: com.example.generated
+          package-prefix: com.example.server.generated
+      - name: fernapi/fern-java-sdk
+        version: 0.2.1
+        output:
+          location: local-file-system
+          path: ../../src/test/java/com/example/client/generated
+        config:
+          package-prefix: com.example.client.generated
