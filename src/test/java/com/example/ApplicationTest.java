@@ -21,7 +21,7 @@ public class ApplicationTest {
         DemoApiClient client = DemoApiClient.builder()
                 .url("http://localhost:8080")
                 .build();
-        Movie movie = client.imdb().getMovie("oodwill-hunting");
+        Movie movie = client.imdb().getMovie("goodwill-hunting");
         Assertions.assertEquals(movie.getTitle(), "Goodwill Hunting");
     }
 }
