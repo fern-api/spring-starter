@@ -10,7 +10,7 @@ groups:
         config:
           package-prefix: com.example.server.generated
       - name: fernapi/fern-java-sdk
-        version: 0.4.2-rc3
+        version: 0.3.10-rc3
         output:
           location: local-file-system
           path: ../../src/test/java/com/example/client/generated
