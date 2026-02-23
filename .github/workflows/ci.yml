@@ -16,8 +16,8 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
           cache: 'gradle'
-      - name: Install fern
-        run: npm install -g fern-api
+      - name: Setup Fern CLI
+        uses: fern-api/setup-fern-cli@v1
       - name: fern generate
         run: fern generate
         env:
